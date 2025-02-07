@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: whoami:latest
+        image: r.deso.tech/whoami/whoami:latest
         ports:
         - containerPort: 80
 ---
